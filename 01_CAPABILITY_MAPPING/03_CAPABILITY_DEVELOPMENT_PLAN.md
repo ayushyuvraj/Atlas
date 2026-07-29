@@ -1,11 +1,11 @@
-# Capability Development Plan
+﻿# Capability Development Plan
 
 ## Document Status
 
-**Layer:** 1 - Capability Mapping  
-**Version:** v1.0  
-**Status:** Frozen  
-**Inputs:** Local-only source inputs, prior project summaries, FPOS v1.0  
+**Layer:** 1 - Capability Mapping
+**Version:** v1.0
+**Status:** Frozen
+**Inputs:** Local-only source inputs, prior project summaries, FPOS v1.0
 **Purpose:** Identify product, technical, operating, and narrative capabilities the flagship program must strengthen through concrete artifacts.
 
 ---
@@ -44,7 +44,7 @@ The existing proof points are strongest in BFSI and regulated banking environmen
 | Cross-industry positioning | High | EDOS must work beyond BFSI | Current proof points are heavily BFSI/regulatory | EDOS is defined by decision complexity, not industry | Product strategy, ICP, platform expansion |
 | Agentic AI product strategy | High | Modern enterprise AI products increasingly require agentic workflows | Current projects include AI platforms but limited explicit multi-agent evidence | Multi-Agent Decision Studio and reasoning modules | IRE, agent architecture, AI behavior spec |
 | AI evaluation | High | AI PMs must define quality, reliability, and eval criteria | Existing projects define product metrics, less evidence of AI eval design | Create evaluation framework for decision reasoning | AI Evaluation Framework, test cases |
-| Technical architecture depth | Medium-High | Senior AI product work must be technically credible | Prior work shows RAG, multimodal AI, fallback, governance | Build system architecture, data model, APIs, deployment view | Technical Architecture package |
+| Technical architecture depth | Medium-High | Senior AI product work must be technically credible | Prior work shows RAG, multimodal AI, fallback, governance | Build system architecture, data model, APIs, deployment view | `09_TECHNICAL_ARCHITECTURE/` |
 | Public product launch | High | The product needs to be understandable outside the working team | Prior projects are client/internal | Build public website, demo, launch assets | Landing page, demo video, release notes |
 | Thought leadership | High | Public learning and market presence should grow alongside the product | No repository artifact yet | Continuous content engine tied to milestones | Editorial calendar, LinkedIn posts |
 | Product design artifacts | Medium | Senior PMs should communicate UX clearly | Prior projects describe workflows, not visual artifacts | Create journey maps, wireframes, prototype | Design system, UX flows |

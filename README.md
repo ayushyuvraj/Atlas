@@ -1,4 +1,4 @@
-# Atlas
+﻿# Atlas
 
 Atlas is a public product operating repository for an Enterprise Decision Operating System.
 
@@ -36,6 +36,33 @@ The repository documents the product reasoning behind that thesis, including opp
 
 02_DISCOVERY/
     Opportunity discovery, customer pain mapping, JTBD, AI timing, market logic, competitive deconstruction, SWOT, prioritization matrix, and final selection decision.
+
+03_PRODUCT_STRATEGY/
+    Product strategy, Product DNA, category positioning, product wedge, core differentiator, metrics, narrative, and Red Team Review.
+
+04_CUSTOMER_INTELLIGENCE/
+    ICP, buying committee, personas, JTBD, adoption journey, customer value proposition, messaging translation, and Red Team Review.
+
+05_DECISION_SCIENCE/
+    Institutional Reasoning Management, Institutional Reasoning Engine, reasoning modules, human-AI collaboration, explainability, trust, decision principles, and Red Team Review.
+
+06_PRODUCT_SYSTEM_DESIGN/
+    Product architecture, information architecture, navigation, core objects, Decision Lifecycle Specification, Decision Object Model, permissions, state transitions, business rules, and Red Team Review.
+
+07_PRODUCT_DEFINITION/
+    Product Requirements Document, use cases, user journeys, functional requirements, non-functional requirements, AI behavior specification, user stories, acceptance criteria, error handling, analytics, and Red Team Review.
+
+08_EXPERIENCE_DESIGN/
+    Experience design overview, journey maps, user flows, wireframes, high-fidelity design direction, design system, component library, AI interaction patterns, accessibility, empty states, error states, and Red Team Review.
+
+09_TECHNICAL_ARCHITECTURE/
+    Technical architecture overview, system architecture, AI architecture, data architecture, API design, integration strategy, security and identity, deployment, operations, observability, scalability, evaluation framework, and Red Team Review.
+
+10_BUSINESS_STRATEGY/
+    Business strategy overview, business model, pricing and packaging, ROI model, procurement and enterprise rollout, customer success, sales enablement, expansion strategy, and Red Team Review.
+
+11_VALIDATION/
+    Validation overview, Product Review Board reassessment, design review, architecture review, AI review, security review, executive review, competitive review, risk review, gap reassessment, and Red Team Review.
 ```
 
 Additional layers will be added in sequence as the product program progresses.
@@ -44,13 +71,22 @@ Additional layers will be added in sequence as the product program progresses.
 
 The current active layer is:
 
-> Layer 3 - Product Strategy
+> Layer 12 - Build
 
 Completed layers:
 
 - Layer 0 - Program Foundation
 - Layer 1 - Capability Mapping
 - Layer 2 - Opportunity Discovery
+- Layer 3 - Product Strategy
+- Layer 4 - Customer Intelligence
+- Layer 5 - Decision Science
+- Layer 6 - Product System Design
+- Layer 7 - Product Definition
+- Layer 8 - Experience Design
+- Layer 9 - Technical Architecture
+- Layer 10 - Business Strategy
+- Layer 11 - Validation
 
 The live program dashboard is here:
 
@@ -66,13 +102,11 @@ Local-only source inputs, private notes, and publication-prep scaffolding are in
 
 ## Next Milestone
 
-Create the Layer 3 Product Strategy package:
+Begin Layer 12 Build:
 
-- Product DNA
-- Vision and mission
-- Positioning
-- Product wedge
-- Core differentiator
-- Product principles
-- North Star metric
-- Product narrative
+- MVP implementation
+- AI workflows
+- Testing
+- Evaluation
+- Deployment
+- Internal documentation

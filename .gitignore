@@ -1,0 +1,43 @@
+# Local/private source inputs
+00_PROGRAM/INPUTS/
+AGENTS.md
+
+# Personal resume and raw career files
+*resume*
+*Resume*
+*.docx
+*.doc
+*.pdf
+
+# Local-only narrative and publication-prep scaffolding
+01_CAPABILITY_MAPPING/06_NARRATIVE_TRACKER.md
+**/*PUBLIC_POSITIONING_RED_TEAM_REVIEW.md
+**/*PRIVATE_POSITIONING*.md
+**/*CAREER_POSITIONING*.md
+**/*PERSONAL_MOTIVE*.md
+
+# Secrets and local environment
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Generated/temp files
+*.tmp
+*.bak
+*.log
+__pycache__/
+.pytest_cache/
+node_modules/
+dist/
+build/

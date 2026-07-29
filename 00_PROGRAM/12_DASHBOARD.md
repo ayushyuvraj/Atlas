@@ -8,7 +8,7 @@
 | Version | FPOS v1.0 |
 | Architecture | Frozen |
 | Current Sprint | Layer 3 - Product Strategy |
-| Current Milestone | Public-readiness cleanup, local-only publication boundary, and root `README.md` complete; next step is GitHub repository setup for `Atlas` |
+| Current Milestone | Atlas GitHub repository created and ready for first public push |
 | Product | Enterprise Decision Operating System |
 | Core Product | AI-Native Multi-Agent Decision Studio |
 | Initial Wedge | Strategic Portfolio & Investment Decision Support |
@@ -71,7 +71,7 @@
 
 ## Current Next Step
 
-Create/connect the public GitHub repository named `Atlas`, inspect staged files, then push only after explicit user approval.
+Push the public-safe local baseline to `https://github.com/ayushyuvraj/Atlas`.
 
 ## Open Decisions
 
@@ -91,7 +91,7 @@ Create/connect the public GitHub repository named `Atlas`, inspect staged files,
 | D-020 | Clean up `01_CAPABILITY_MAPPING` public readiness before GitHub publication | Closed |
 | D-021 | Clean up `02_DISCOVERY` public readiness before GitHub publication | Closed |
 | D-022 | Keep narrative strategy and publication-prep scaffolding local-only | Closed |
-| D-023 | Create public repository as `Atlas` with unchanged local folder structure | In Progress |
+| D-023 | Create public repository as `Atlas` with unchanged local folder structure | Ready for push |
 
 ## Open Risks
 

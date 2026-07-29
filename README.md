@@ -63,6 +63,18 @@ The repository documents the product reasoning behind that thesis, including opp
 
 11_VALIDATION/
     Validation overview, Product Review Board reassessment, design review, architecture review, AI review, security review, executive review, competitive review, risk review, gap reassessment, and Red Team Review.
+
+12_BUILD/
+    Build plan, MVP scope lock, AI workflows, testing plan, evaluation results, deployment notes, internal documentation, Red Team Review, and the working Atlas MVP application.
+
+13_LAUNCH/
+    Launch plan, landing page, product demo, demo script, product tour, blog post, FAQ, sales deck, executive deck, release notes, security overview, architecture overview, launch site, and Red Team Review.
+
+14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/
+    Professional profile, LinkedIn positioning, GitHub positioning, product case study hub, product case study, executive presentation, STAR stories, public project narrative, local-only private prep notes, and Red Team Review.
+
+15_PLATFORM_EXPANSION/
+    Platform expansion overview, future wedge portfolio, product adjacency map, expansion sequencing, platform roadmap, and Red Team Review.
 ```
 
 Additional layers will be added in sequence as the product program progresses.
@@ -71,7 +83,7 @@ Additional layers will be added in sequence as the product program progresses.
 
 The current active layer is:
 
-> Layer 12 - Build
+> FPOS v1.0 complete through Layer 15
 
 Completed layers:
 
@@ -87,6 +99,10 @@ Completed layers:
 - Layer 9 - Technical Architecture
 - Layer 10 - Business Strategy
 - Layer 11 - Validation
+- Layer 12 - Build
+- Layer 13 - Launch
+- Layer 14 - Professional Narrative & Public Presence
+- Layer 15 - Platform Expansion
 
 The live program dashboard is here:
 
@@ -100,13 +116,35 @@ Customer pain, market sizing, and AI timing claims are treated as hypotheses unt
 
 Local-only source inputs, private notes, and publication-prep scaffolding are intentionally excluded from the public repository.
 
+## Local MVP
+
+The MVP can be run from:
+
+```text
+12_BUILD/atlas-mvp/
+```
+
+Local commands:
+
+```text
+npm install
+npm run dev
+```
+
+Then open:
+
+```text
+http://127.0.0.1:3000/
+```
+
+## Local Launch Page
+
+The local launch page is available at:
+
+```text
+13_LAUNCH/atlas-launch-site/index.html
+```
+
 ## Next Milestone
 
-Begin Layer 12 Build:
-
-- MVP implementation
-- AI workflows
-- Testing
-- Evaluation
-- Deployment
-- Internal documentation
+Perform repository sanity check, public-release safety review, and choose the next execution path.

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atlas - Enterprise Decision Operating System</title>
+    <meta
+      name="description"
+      content="Atlas is a working MVP for an Enterprise Decision Operating System for strategic investment decisions."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav" aria-label="Atlas launch navigation">
+        <strong>Atlas</strong>
+        <div>
+          <a href="#workflow">Workflow</a>
+          <a href="#engine">IRE</a>
+          <a href="#demo">Demo</a>
+        </div>
+      </nav>
+
+      <section class="hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Enterprise Decision Operating System</span>
+          <h1>Run strategic investment decisions with institutional reasoning.</h1>
+          <p>
+            Atlas is a working MVP that helps strategy and portfolio teams structure high-stakes investment
+            decisions, inspect assumptions and tradeoffs, and capture decision rationale as reusable institutional memory.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="../../12_BUILD/atlas-mvp/index.html">Review MVP source</a>
+            <a class="button secondary" href="../04_DEMO_SCRIPT.md">Read demo script</a>
+          </div>
+        </div>
+
+        <div class="product-preview" aria-label="Atlas product preview">
+          <div class="preview-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="preview-body">
+            <aside>
+              <strong>Decision Workspace</strong>
+              <small>Strategic Investment Review</small>
+              <ul>
+                <li class="active">Context</li>
+                <li>Assumptions</li>
+                <li>Scenarios</li>
+                <li>Recommendation</li>
+              </ul>
+            </aside>
+            <main>
+              <div class="preview-card strong">
+                <span>Executive Recommendation</span>
+                <strong>Fund 3 initiatives, defer 1 pending validation</strong>
+              </div>
+              <div class="preview-row">
+                <div class="preview-card">
+                  <span>Confidence</span>
+                  <strong>84</strong>
+                </div>
+                <div class="preview-card">
+                  <span>Risks</span>
+                  <strong>3 active</strong>
+                </div>
+              </div>
+              <div class="preview-card">
+                <span>Reasoning Trace</span>
+                <div class="trace-line"></div>
+                <div class="trace-line short"></div>
+              </div>
+            </main>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="section problem">
+        <span class="eyebrow">The problem</span>
+        <h2>Enterprises have more information than ever. The reasoning still gets lost.</h2>
+        <div class="three-col">
+          <article>
+            <h3>Fragmented preparation</h3>
+            <p>Strategic decisions are assembled across slides, spreadsheets, dashboards, notes, and meetings.</p>
+          </article>
+          <article>
+            <h3>Hidden assumptions</h3>
+            <p>Teams often debate recommendations without clearly seeing which assumptions drive the outcome.</p>
+          </article>
+          <article>
+            <h3>Lost rationale</h3>
+            <p>After the meeting, organizations remember what was decided but not always why.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="workflow" class="section">
+        <span class="eyebrow">Workflow</span>
+        <h2>Frame, reason, recommend, commit, learn.</h2>
+        <div class="workflow">
+          <div>Frame</div>
+          <div>Reason</div>
+          <div>Recommend</div>
+          <div>Commit</div>
+          <div>Learn</div>
+        </div>
+      </section>
+
+      <section id="engine" class="section split">
+        <div>
+          <span class="eyebrow">Institutional Reasoning Engine</span>
+          <h2>Structured reasoning instead of a single opaque answer.</h2>
+          <p>
+            Atlas breaks a strategic decision into inspectable modules: context, evidence, assumptions, perspectives,
+            scenarios, tradeoffs, risks, recommendation, and learning.
+          </p>
+        </div>
+        <div class="module-grid">
+          <span>Context</span>
+          <span>Evidence</span>
+          <span>Assumptions</span>
+          <span>Perspectives</span>
+          <span>Scenarios</span>
+          <span>Tradeoffs</span>
+          <span>Risks</span>
+          <span>Recommendation</span>
+          <span>Learning</span>
+        </div>
+      </section>
+
+      <section id="demo" class="section demo">
+        <span class="eyebrow">MVP status</span>
+        <h2>A working local MVP for product evaluation.</h2>
+        <p>
+          The current version uses demo data and deterministic reasoning modules. It is intended to demonstrate the
+          product workflow and governance model, not production deployment or live customer usage.
+        </p>
+        <div class="demo-grid">
+          <article>
+            <strong>Implemented</strong>
+            <p>Dashboard, Decision Workspace, reasoning modules, Executive Recommendation, Decision Record.</p>
+          </article>
+          <article>
+            <strong>Verified</strong>
+            <p>Local run, production build, reasoning tests, and dependency audit passed.</p>
+          </article>
+          <article>
+            <strong>Future</strong>
+            <p>Live AI adapter, persistence, enterprise identity, integrations, and public deployment.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

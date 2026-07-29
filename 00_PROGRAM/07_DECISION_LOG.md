@@ -385,3 +385,46 @@ Related Artifacts:
 **Status:** Closed.
 **Related Artifacts:** `11_VALIDATION/01_VALIDATION_OVERVIEW.md`, `11_VALIDATION/02_PRODUCT_REVIEW_BOARD_REASSESSMENT.md`, `11_VALIDATION/09_RISK_REVIEW_AND_GAP_REASSESSMENT.md`, `11_VALIDATION/10_LAYER_11_RED_TEAM_REVIEW.md`, `00_PROGRAM/12_DASHBOARD.md`
 
+### D-033 - Implement Layer 12 MVP with Deterministic Reasoning
+
+**Date:** 2026-07-30
+**Decision:** Create the Layer 12 build package and implement the first Atlas MVP as a local web application using one strategic investment decision workflow and deterministic reasoning modules.
+**Context:** Layer 11 confirmed readiness to build while carrying open risks around implementation, UX proof, and AI evaluation. The frozen Layer 12 activities require MVP implementation, AI workflows, testing, evaluation, deployment notes, and internal documentation.
+**Alternatives Considered:** Build the full Enterprise Decision Operating System; integrate a live AI provider immediately; create only a clickable prototype; postpone implementation until more external validation; build outside the Layer 12 folder.
+**Final Rationale:** A constrained local MVP proves the core Decision Workspace workflow fastest while preserving product traceability. Deterministic reasoning keeps the demo reliable, avoids secrets, and allows the IRE structure to be evaluated before live model integration.
+**Tradeoffs:** The MVP proves workflow and reasoning structure, but not live AI quality, enterprise integrations, persistence, or production readiness.
+**Status:** Closed.
+**Related Artifacts:** `12_BUILD/01_BUILD_PLAN.md`, `12_BUILD/02_MVP_SCOPE_LOCK.md`, `12_BUILD/atlas-mvp/`, `12_BUILD/06_EVALUATION_RESULTS.md`, `12_BUILD/09_LAYER_12_RED_TEAM_REVIEW.md`, `00_PROGRAM/12_DASHBOARD.md`
+
+### D-034 - Freeze Layer 12 and Create Layer 13 Launch Package
+
+**Date:** 2026-07-30
+**Decision:** Freeze Layer 12 Build with documented caveats and create the Layer 13 Launch package.
+**Context:** The user asked Codex to proceed to the next layer after the Layer 12 MVP was implemented. Layer 13 requires assets that allow someone to understand and evaluate the product without a live walkthrough.
+**Alternatives Considered:** Delay launch assets until public hosting; create only a README update; produce a marketing-only landing page; skip launch and proceed directly to professional narrative.
+**Final Rationale:** The frozen FPOS sequence requires Launch before Professional Narrative. Creating the launch package now keeps the public-facing product story grounded in the MVP and prevents the professional narrative layer from carrying product explanation work that belongs in Layer 13.
+**Tradeoffs:** The launch site is local and the demo video is represented by a demo script rather than a recorded video. Public hosting and video production remain optional refinements.
+**Status:** Closed.
+**Related Artifacts:** `13_LAUNCH/01_LAUNCH_PLAN.md`, `13_LAUNCH/02_WEBSITE_AND_LANDING_PAGE.md`, `13_LAUNCH/atlas-launch-site/`, `13_LAUNCH/04_DEMO_SCRIPT.md`, `13_LAUNCH/13_LAYER_13_RED_TEAM_REVIEW.md`, `00_PROGRAM/12_DASHBOARD.md`
+
+### D-035 - Freeze Layer 14 Professional Narrative & Public Presence
+
+**Date:** 2026-07-30
+**Decision:** Create and freeze Layer 14 Professional Narrative & Public Presence, then proceed to Layer 15 Platform Expansion.
+**Context:** Layer 13 created the public launch package. The frozen program sequence required professional narrative and public presence assets before platform expansion.
+**Alternatives Considered:** Skip professional narrative and proceed directly to platform expansion; create only LinkedIn copy; create only a case study; include private motive language in public materials.
+**Final Rationale:** Layer 14 turns the product, evidence trail, MVP, and launch package into professional public-facing assets while preserving public integrity. It separates public product narrative from local-only preparation notes.
+**Tradeoffs:** LinkedIn publishing, audience feedback, and public demo hosting remain future execution work. Layer 14 defines the assets and narrative rather than measuring real market response.
+**Status:** Closed.
+**Related Artifacts:** `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/01_LAYER_14_OVERVIEW.md`, `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/03_LINKEDIN.md`, `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/06_PRODUCT_CASE_STUDY.md`, `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/11_LAYER_14_RED_TEAM_REVIEW.md`, `00_PROGRAM/12_DASHBOARD.md`
+
+### D-036 - Freeze Layer 15 Platform Expansion
+
+**Date:** 2026-07-30
+**Decision:** Create and freeze Layer 15 Platform Expansion, completing the FPOS v1.0 sequence through all planned layers.
+**Context:** Layer 14 completed the professional narrative and public presence package. The frozen program sequence required Layer 15 to define how Atlas can expand beyond the first strategic investment decision wedge.
+**Alternatives Considered:** Stop at Layer 14; create a broad, speculative startup roadmap; immediately build additional wedges; leave platform expansion inside Layer 10 only.
+**Final Rationale:** Layer 15 preserves platform thinking while explicitly keeping future wedges as roadmap hypotheses. It shows how Atlas can expand without becoming a collection of unrelated AI tools.
+**Tradeoffs:** Future wedges are not built or validated. The next practical execution path should prioritize MVP stabilization, public deployment, and validation before expansion.
+**Status:** Closed.
+**Related Artifacts:** `15_PLATFORM_EXPANSION/01_PLATFORM_EXPANSION_OVERVIEW.md`, `15_PLATFORM_EXPANSION/02_FUTURE_WEDGE_PORTFOLIO.md`, `15_PLATFORM_EXPANSION/05_PLATFORM_ROADMAP.md`, `15_PLATFORM_EXPANSION/06_LAYER_15_RED_TEAM_REVIEW.md`, `00_PROGRAM/12_DASHBOARD.md`

@@ -556,7 +556,7 @@ Enterprise-grade UX.
 
 ### Status
 
-Not started.
+In review. Initial MVP application has been implemented under `12_BUILD/atlas-mvp/`. Build, tests, dependency audit, and local access checks have passed. Layer 12 should be frozen only after user review and any necessary build refinements.
 
 ---
 
@@ -586,7 +586,7 @@ Technically credible platform.
 
 ### Status
 
-Not started.
+Complete/Frozen. Layer 12 deliverables and MVP implementation have been created under `12_BUILD/`. The MVP passed tests, build, audit, and local access checks. Caveats around deterministic reasoning, local demo status, and non-production readiness are carried into launch materials.
 
 ---
 
@@ -613,7 +613,7 @@ Commercial viability.
 
 ### Status
 
-Not started.
+Complete/Frozen. Layer 13 launch assets have been created under `13_LAUNCH/`, including the local launch page, demo narrative, FAQ, decks, release notes, security overview, architecture overview, and Red Team Review.
 
 ---
 
@@ -641,7 +641,7 @@ Product direction validated and remaining risks documented.
 
 ### Status
 
-Continuous.
+Complete/Frozen. Layer 14 professional narrative and public presence assets have been created under `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/`. Private preparation notes are local-only and must not be published.
 
 ---
 
@@ -758,7 +758,7 @@ Enterprise Decision Operating System
 
 ### Status
 
-Backlog. Do not distract from the first wedge until core product milestones are stable.
+Complete/Frozen. Layer 15 platform expansion artifacts have been created under `15_PLATFORM_EXPANSION/`. Future wedges remain roadmap hypotheses and should not distract from MVP stabilization, deployment, and validation.
 
 ---
 
@@ -1051,9 +1051,9 @@ Launch/professional packaging Not started
 
 ### Current Execution Status
 
-**Active Layer: Layer 12 - Build**
+**Active Layer: FPOS v1.0 Complete Through Layer 15**
 
-Goal: Create a working MVP with AI workflows, testing, evaluation, deployment, and internal documentation.
+Goal: Perform repository sanity check, public-release safety review, and choose the next execution path after the full frozen sequence.
 
 Foundation sequence completed:
 
@@ -1087,7 +1087,7 @@ Foundation sequence completed:
 
 ### Current Repository Status
 
-- Layer 0, Layer 1, Layer 2, Layer 3, Layer 4, Layer 5, Layer 6, Layer 7, Layer 8, Layer 9, Layer 10, and Layer 11 artifacts have been created and reviewed.
+- Layer 0, Layer 1, Layer 2, Layer 3, Layer 4, Layer 5, Layer 6, Layer 7, Layer 8, Layer 9, Layer 10, Layer 11, Layer 12, and Layer 13 artifacts have been created and reviewed.
 - Public-readiness cleanup is complete for `00_PROGRAM/`, `01_CAPABILITY_MAPPING/`, and `02_DISCOVERY/`.
 - Layer 3 Product Strategy has been formalized in `03_PRODUCT_STRATEGY/`.
 - Layer 4 Customer Intelligence has been formalized in `04_CUSTOMER_INTELLIGENCE/`.
@@ -1098,20 +1098,21 @@ Foundation sequence completed:
 - Layer 9 Technical Architecture has been formalized in `09_TECHNICAL_ARCHITECTURE/`.
 - Layer 10 Business Strategy has been formalized in `10_BUSINESS_STRATEGY/`.
 - Layer 11 Validation has been formalized in `11_VALIDATION/`.
+- Layer 12 Build has been formalized in `12_BUILD/`, including a working local MVP.
+- Layer 13 Launch has been formalized in `13_LAUNCH/`, including launch assets and a local landing page.
+- Layer 14 Professional Narrative & Public Presence has been formalized in `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/`.
+- Layer 15 Platform Expansion has been formalized in `15_PLATFORM_EXPANSION/`.
 
 ### Current Milestone
 
-Proceed to Layer 12: Build.
+Perform full repository sanity check and decide next execution path.
 
 ### Immediate Next Documents
 
-1. MVP implementation
-2. AI workflows
-3. Testing
-4. Evaluation
-5. Deployment
-6. Internal documentation
-7. Layer 12 Red Team Review
+1. Repository sanity check
+2. Public-release safety review
+3. Commit and push if safe
+4. Decide next execution path: MVP polish, public deployment, narrative publishing, or customer validation
 
 ---
 
@@ -1167,4 +1168,3 @@ Every week, or whenever a milestone changes, the dashboard should track:
 This program architecture is frozen as FPOS v1.0.
 
 Future work should not introduce new categories of work casually. New work must map to an existing layer or cross-cutting workstream. If a major strategic assumption changes, the change must be documented as a formal program amendment.
-

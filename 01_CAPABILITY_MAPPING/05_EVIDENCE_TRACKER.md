@@ -109,6 +109,45 @@
 | `11_VALIDATION/08_COMPETITIVE_REVIEW.md` | Reviews competitive position and differentiation | Competitive judgment | Frozen |
 | `11_VALIDATION/09_RISK_REVIEW_AND_GAP_REASSESSMENT.md` | Reassesses remaining risks and gaps | Risk management and capability tracking | Frozen |
 | `11_VALIDATION/10_LAYER_11_RED_TEAM_REVIEW.md` | Reviews Layer 11 completeness and caveats | Red Team discipline and pre-build readiness | Frozen |
+| `12_BUILD/01_BUILD_PLAN.md` | Defines how the MVP will be implemented | Build planning and execution discipline | Active |
+| `12_BUILD/02_MVP_SCOPE_LOCK.md` | Locks the MVP to one strategic investment decision workflow | Scope discipline and product judgment | Frozen |
+| `12_BUILD/03_IMPLEMENTATION_LOG.md` | Tracks implementation decisions and verification | Execution traceability | Active |
+| `12_BUILD/04_AI_WORKFLOWS.md` | Defines the MVP reasoning workflow | AI workflow design and responsible AI framing | Active |
+| `12_BUILD/06_EVALUATION_RESULTS.md` | Records build, test, audit, and local access results | Evaluation discipline and technical verification | Active |
+| `12_BUILD/08_INTERNAL_DOCUMENTATION.md` | Explains the MVP implementation structure | Product-engineering communication | Active |
+| `12_BUILD/09_LAYER_12_RED_TEAM_REVIEW.md` | Reviews build readiness and caveats before freeze | Red Team discipline and launch readiness | Frozen |
+| `12_BUILD/atlas-mvp/` | Working Atlas MVP application | Product execution, AI workflow implementation, and demo readiness | Implemented |
+| `13_LAUNCH/01_LAUNCH_PLAN.md` | Defines product launch package and sequence | Launch planning and communication discipline | Frozen |
+| `13_LAUNCH/02_WEBSITE_AND_LANDING_PAGE.md` | Defines public landing page narrative | Product marketing and positioning | Frozen |
+| `13_LAUNCH/03_PRODUCT_DEMO.md` | Defines what the MVP demonstrates | Demo strategy and product communication | Frozen |
+| `13_LAUNCH/04_DEMO_SCRIPT.md` | Provides a clear walkthrough narrative | Executive communication and storytelling | Frozen |
+| `13_LAUNCH/05_PRODUCT_TOUR.md` | Explains user-facing workflow | Product education and adoption thinking | Frozen |
+| `13_LAUNCH/06_BLOG_POST.md` | Provides long-form product thesis | Thought leadership and product narrative | Frozen |
+| `13_LAUNCH/07_FAQ.md` | Handles objections and product boundaries | Buyer enablement and integrity | Frozen |
+| `13_LAUNCH/08_SALES_DECK.md` | Provides enterprise buyer narrative | GTM and sales enablement | Frozen |
+| `13_LAUNCH/09_EXECUTIVE_DECK.md` | Provides executive-level narrative | Executive communication | Frozen |
+| `13_LAUNCH/10_RELEASE_NOTES.md` | Summarizes MVP release and limitations | Launch discipline and transparency | Frozen |
+| `13_LAUNCH/11_SECURITY_OVERVIEW.md` | Explains MVP security posture and future requirements | Enterprise trust communication | Frozen |
+| `13_LAUNCH/12_ARCHITECTURE_OVERVIEW.md` | Explains MVP architecture publicly | Technical communication | Frozen |
+| `13_LAUNCH/13_LAYER_13_RED_TEAM_REVIEW.md` | Reviews launch readiness and caveats | Red Team discipline and public readiness | Frozen |
+| `13_LAUNCH/atlas-launch-site/` | Local launch landing page | Public product communication | Complete |
+| `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/01_LAYER_14_OVERVIEW.md` | Defines professional narrative and public presence scope | Narrative strategy and public integrity | Frozen |
+| `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/02_PROFESSIONAL_PROFILE.md` | Provides public-safe professional profile language | Professional communication | Frozen |
+| `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/03_LINKEDIN.md` | Defines LinkedIn positioning and content pillars | Thought leadership and public presence | Frozen |
+| `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/04_GITHUB_PROFILE_AND_REPO_POSITIONING.md` | Defines GitHub profile and repository positioning | Public repository strategy | Frozen |
+| `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/05_PRODUCT_CASE_STUDY_HUB.md` | Defines case study hub structure | Portfolio communication | Frozen |
+| `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/06_PRODUCT_CASE_STUDY.md` | Provides product case study | Product storytelling and synthesis | Frozen |
+| `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/07_EXECUTIVE_PRESENTATION.md` | Provides executive presentation narrative | Executive communication | Frozen |
+| `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/08_STAR_STORIES.md` | Maps Atlas work to interview-ready stories | Communication and reflection | Frozen |
+| `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/09_PUBLIC_PROJECT_NARRATIVE.md` | Provides concise public narrative | Public product explanation | Frozen |
+| `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/10_PRIVATE_POSITIONING_PRESENTATION_PREP.md` | Provides local-only private preparation notes | Private preparation; not public evidence | Local-only |
+| `14_PROFESSIONAL_NARRATIVE_PUBLIC_PRESENCE/11_LAYER_14_RED_TEAM_REVIEW.md` | Reviews Layer 14 completeness and caveats | Red Team discipline and public integrity | Frozen |
+| `15_PLATFORM_EXPANSION/01_PLATFORM_EXPANSION_OVERVIEW.md` | Defines platform expansion thesis and guardrails | Platform strategy and scope discipline | Frozen |
+| `15_PLATFORM_EXPANSION/02_FUTURE_WEDGE_PORTFOLIO.md` | Defines future wedge portfolio | Product portfolio and market expansion thinking | Frozen |
+| `15_PLATFORM_EXPANSION/03_PRODUCT_ADJACENCY_MAP.md` | Maps product adjacencies and shared capabilities | Systems thinking and platform architecture | Frozen |
+| `15_PLATFORM_EXPANSION/04_EXPANSION_SEQUENCING.md` | Defines recommended expansion order | Roadmap sequencing and prioritization | Frozen |
+| `15_PLATFORM_EXPANSION/05_PLATFORM_ROADMAP.md` | Defines platform roadmap horizons | Long-term product strategy | Frozen |
+| `15_PLATFORM_EXPANSION/06_LAYER_15_RED_TEAM_REVIEW.md` | Reviews platform expansion readiness and caveats | Red Team discipline and roadmap quality control | Frozen |
 | `01_CAPABILITY_MAPPING/02_CAPABILITY_MATRIX.md` | Maps capabilities to artifacts | Operating capability orientation | In Review |
 | `01_CAPABILITY_MAPPING/03_CAPABILITY_DEVELOPMENT_PLAN.md` | Identifies capability development areas and closure plan | Honest capability assessment, operating maturity | In Review |
 | `01_CAPABILITY_MAPPING/05_EVIDENCE_TRACKER.md` | Tracks artifact-to-evidence mapping | Traceability | Active |
